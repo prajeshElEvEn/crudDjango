@@ -1,8 +1,0 @@
-{% for book in books %}
-<p>
-  {{ book.title }} by {{ book.author }} (<a
-    href="{% url 'book_detail' pk=book.pk %}"
-    >details</a
-  >)
-</p>
-{% endfor %}
